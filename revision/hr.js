@@ -16,8 +16,15 @@ function makeNameTags(person) {
 
 // 3
 
-function createPoll(survey) {
-    return survey;
+function createPoll(fruits) {
+    let result = fruits.reduce((acc, cur) => {
+        if (!acc[cur]) {
+            acc[cur] = 0;
+        }
+        acc[cur]++;
+        return acc;
+    }, {});
+    return result;
 }
 
 module.exports = { createPoll, makeNameTags, removeAgents }
