@@ -1,0 +1,24 @@
+{
+  "name": "fun-nc-leaks",
+  "version": "1.0.0",
+  "description": "Northcoders have set up an api to serve data about past and present employees here: https://nc-leaks.herokuapp.com. A northcoders whistleblower has left you some instructions on how to obtain this data.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukasHarris/fun-nc-leaks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LukasHarris/fun-nc-leaks/issues"
+  },
+  "homepage": "https://github.com/LukasHarris/fun-nc-leaks#readme",
+  "devDependencies": {
+    "jest": "^27.4.3"
+  }
+}
